@@ -1,0 +1,31 @@
+name: hen_selling_app
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  firebase_auth: ^5.3.3
+  provider: ^6.1.2
+  shared_preferences: ^2.3.3
+  firebase_messaging: ^15.1.5
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/brown-hen-isolated-white-studio-shot_136670-2556.jpg  # Relative path to the image file
+    # You can add more assets in the same way if needed
+    - assets/hens-head-close-up_181624-1232.jpg
+    - assets/organic-eggs-eggshells-metallic-bowl-black-surface_114579-16175.jpg
